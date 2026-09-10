@@ -2,20 +2,64 @@
     {
         "id":1,
         "titulo":"Homem Aranha: Através do Aranhaverso",
-        "plataforma":,
-        "nota":,
-        "status":,
-        "capa":,
-    }
+        "categoria":"Filme",
+        "plataforma":"Netflix",
+        "nota":10.0,
+        "status":"Assistido",
+        "capa":"https://www.sonypictures.com.br/filmes/homem-aranha-no-aranhaverso"
+    },
     {
     
-        "id":,
-        "titulo":,
-        "plataforma":,
-        "nota":,
-        "status":,
-        "capa":,
+        "id":2,
+        "titulo":"Meu Malvado Favorito 4",
+        "categoria":"Filme",
+        "plataforma":"Netflix",
+        "nota":7.0,
+        "status":"Assistir",
+        "capa":"https://pt.wikipedia.org/wiki/Despicable_Me_4"
+    
+    },
+    {
+    
+        "id":3,
+        "titulo":"Bel-Air",
+        "categoria":"Serie",
+        "plataforma":"Netflix",
+        "nota":8.0,
+        "status":"Assistir",
+        "capa":"https://www.adorocinema.com/series/serie-27135/"
+    },
+    {
+    
+        "id":4,
+        "titulo":"The Mentalista",
+        "categoria":"Serie",
+        "plataforma":"Netflix",
+        "nota":10.0,
+        "status":"Assistir",
+        "capa":"https://www.imdb.com/pt/title/tt1196946/"
+    
+    },
+    {
+    
+        "id":5,
+        "titulo":"Roblox",
+        "categoria":"Jogo",
+        "plataforma":"PC / Console",
+        "nota":10.0,
+        "status":"Abaixado",
+        "capa":"https://www.imdb.com/title/tt6667676/"
+    
+    },
+    {
+    
+        "id":6,
+        "titulo":"Fortnite",
+        "categoria":"Jogo",
+        "plataforma":"PC / Console",
+        "nota":10.0,
+        "status":"Abaixar",
+        "capa":"https://fortnite.fandom.com/pt-br/wiki/Fortnite"
     
     }
-]    
-    
+]

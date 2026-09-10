@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub de Midias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hub de Midias flix</h1>
+        <p>Gerenciador de Jogos, Filmes e Series</p>
+    </header>
+    <main class="container">
+        <selection class="painel_cadastro">
+            <h2>Adicionar á lista de Midia</h2>
+            <form action="" id="form_midia">
+                <input type="text" id="titulo" placeholder="Ex: Fortnite" required>
+            <select id="categoria" required>
+                <option value="Categoria">Categoria</option>
+                <option value="Jogos">Jogos</option>
+                <option value="Filmes">Filmes</option>
+                <option value="Series">Series</option>
+            </select>
+            <input type="text" id="plataforma" placeholder="Ex: Netflix, PC" required>
+            <input type="text" id="nota" step="0.1" min="0" max="10" placeholder="Ex: 0 a 10.0" required>
+            <button class="btn-salvar">Adicionar</button>
+            
+            </form>
+        </selection>
+        <section class="painel-catalogo">
+            <div class="filtros">
+                <button>Todos</button>
+                <button>Jogos</button>
+                <button>Filmes</button>
+                <button>Series</button>
+            </div>
+            <div id="catalogo-grid" class="grid">
+                <!--Os card serao exibidos aqui-->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>
