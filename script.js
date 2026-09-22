@@ -24,6 +24,22 @@ function renderizarGrid(lista){
         container.innerHTML = `<p class="info">Nenhum item cadastrato nesta categoria</p>`;
         return;
     }
+
+    lista.forEach(item => {
+        const card = document.createElement(`div`);
+        card.className = 'card';
+
+        card.innerHTML = `
+        <div>
+        <span class="tag-categoria">${item.categoria}</span>
+        <h3>${item.titulo}</h3>
+        <p class="info">Plataforma: ${item.plataforma}</p>
+        <p class="info">Nota: <span class="nota">${item.notatoFixed(1)}</span></p>
+        <p class="info">Status: <strong>${}
+        `
+    });
 }
+
+
 
 document.addEventListener('DOMContentLoaded',carregarCatalogo);
