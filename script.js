@@ -35,7 +35,10 @@ function renderizarGrid(lista){
         <h3>${item.titulo}</h3>
         <p class="info">Plataforma: ${item.plataforma}</p>
         <p class="info">Nota: <span class="nota">${item.notatoFixed(1)}</span></p>
-        <p class="info">Status: <strong>${}
+        <p class="info">Status: <strong>${item.status}</strong></p>
+        <div>
+
+        
         `
     });
 }
